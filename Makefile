@@ -1,6 +1,6 @@
 .PHONY: dev build preview install clean rename
 
-dev:
+dev: install
 	bun run dev
 
 build:

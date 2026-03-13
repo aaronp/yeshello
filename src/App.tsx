@@ -111,9 +111,9 @@ function App() {
 
       {/* Footer */}
       <footer className="footer">
-        <p className="disclaimer">We are completely serious. 🫡</p>
+        <p className="disclaimer">We are completely serious ;-) 🫡</p>
         <p className="attribution">
-          A rebuttal to <a href="https://nohello.net/en/">nohello.net</a>
+          And a big "hello!" to <a href="https://nohello.net/en/">nohello.net</a> 👋
         </p>
       </footer>
     </div>
