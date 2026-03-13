@@ -98,14 +98,18 @@ Single `App.tsx` component. No routing, no state management needed. The page is 
 - `src/index.css` — Minor global style adjustments (background color, font)
 - `index.html` — Update page title and meta tags
 - `package.json` — Update name from "ui-skeleton" to "yeshello"
-- `vite.config.ts` — Update base path if needed for deployment
-- `readme.md` — Update to reflect yeshello project
+- `vite.config.ts` — Set base path to `/` for custom domain deployment (currently `/ui-skeleton/`)
+- `.github/workflows/deploy.yml` — Update trigger branch from `master` to `main`
+
+### Files to create
+
+- `public/CNAME` — Contains `yeshello.site` for GitHub Pages custom domain configuration
 
 ### Files to keep as-is
 
-- `.github/workflows/deploy.yml` — GitHub Pages deploy already configured
 - `Makefile` — Build commands still apply
 - `tsconfig.json` — No changes needed
+- `readme.md` — Leave as-is or update minimally (low priority)
 
 ### No new dependencies
 
